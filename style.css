@@ -1,0 +1,10 @@
+.cabeza{
+  border-bottom: 1px solid gray;
+}
+.nombre{
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+}
+.superior{
+  border-top: 1px solid gray;
+}
