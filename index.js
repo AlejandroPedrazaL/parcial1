@@ -50,7 +50,9 @@ navBar.addEventListener("click", (evt)=>{
   else if(tipo==="Desserts"){
     productos=menu[3].products;
   }
-  else if(tipo==="Drink & Sides"){
+  else if(tipo==="Drink_&_Sides"){
+    tipo="Drink & Sides";
+    tipoDiv.innerHTML = tipo;
     productos=menu[4].products;
   }
   let prod = "<div class=\"row\">";
