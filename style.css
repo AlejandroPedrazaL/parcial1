@@ -1,10 +1,30 @@
-.cabeza{
-  border-bottom: 1px solid gray;
-}
+
 .nombre{
   font-family: 'Satisfy', cursive;
   font-weight: bold;
 }
-.superior{
-  border-top: 1px solid gray;
+.tipo{
+  font-weight: bold;
+  text-align: center;
+}
+.foot{
+  font-weight: bold;
+  text-align: center;
+}
+.cancelar{
+  background-color: rgb(251,87,91);
+  border-color: rgb(107,173,174);
+  border-radius: 6px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.aceptar{
+
+  background-color: rgb(243,232,221);
+  border-color: black;
+  border-radius: 6px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
